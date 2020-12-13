@@ -2,10 +2,8 @@
 /.idea/
 /.vscode/
 /.yarn/
-/jest/
 /node_modules/
 /src/
-/test-utils/
 /*.iml
 /.browserlistrc
 /.editorconfig
@@ -17,7 +15,6 @@
 /.prettierrc.json
 /.travis.yml
 /.yarnrc.yml
-/jest.config.js
 /package-lock.json
 /rollup.config.js
 /tsconfig.eslint.json

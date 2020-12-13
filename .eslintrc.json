@@ -1,6 +1,5 @@
 {
   "env": {
-    "jest": true,
     "node": true
   },
 
@@ -9,9 +8,7 @@
     "plugin:@typescript-eslint/eslint-recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:prettier/recommended",
-    "plugin:react/recommended",
-    "prettier/@typescript-eslint",
-    "prettier/react"
+    "prettier/@typescript-eslint"
   ],
 
   "parser": "@typescript-eslint/parser",
@@ -28,19 +25,10 @@
     "warnOnUnsupportedTypeScriptVersion": false
   },
 
-  "plugins": ["@typescript-eslint", "prettier", "react", "react-hooks"],
+  "plugins": ["@typescript-eslint", "prettier"],
 
   "rules": {
     "prettier/prettier": "error",
-    "react/prop-types": ["error", { "skipUndeclared": true }],
-    "react-hooks/exhaustive-deps": "error",
-    "react-hooks/rules-of-hooks": "error",
     "sort-imports": ["error", { "ignoreDeclarationSort": true }]
-  },
-
-  "settings": {
-    "react": {
-      "version": "detect"
-    }
   }
 }

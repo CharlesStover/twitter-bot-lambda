@@ -1,3 +1,1 @@
-export default function App(): void {
-  return;
-}
+export { default as handler } from './handler';
