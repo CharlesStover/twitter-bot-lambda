@@ -23,8 +23,7 @@
   ],
   "publishConfig": {
     "access": "restricted",
-    "main": "./dist/cjs/index.js",
-    "module": "./dist/esm/index.mjs"
+    "main": "./dist/index.js"
   },
   "scripts": {
     "build": "webpack",
